@@ -14,7 +14,7 @@ Here you can find all of the satshakit boards: **[satshakit organization](https:
 satshakit-nero
 --
 
-**satshakit nero** is microcontroller board designed around the **ATMega1284P** and the **ATMega328P** chips and it is suitable for advanced drone applications and scenarios in which it is needed to have two available microcontrollers. The ATMega328P manages the flight with the **[Multiwii](http://www.multiwii.com/)** while ATMega1284P can be used to inject and override the transmitter stick values (ROLL, PITCH, YAW and THROTTLE) or to manage a set of additional sensors. In the board there is a jumper to enable or disable the serial communication between the two microcontrollers (SERIAL_COMMON in the Eagle board).
+**satshakit-nero** is microcontroller board designed around the **ATMega1284P** and the **ATMega328P** chips and it is suitable for advanced drone applications and scenarios in which it is needed to have two available microcontrollers. The ATMega328P manages the flight with the **[Multiwii](http://www.multiwii.com/)** while the ATMega1284P can be used to inject and override the transmitter stick values (ROLL, PITCH, YAW and THROTTLE) or to manage a set of additional sensors. In the board there is a jumper to enable or disable the serial communication between the two microcontrollers (SERIAL_COMMON in the Eagle board).
 
 The ATMega328P microntroller gives to this board all the features of the original **[satshakit flight controller board](https://github.com/satshakit/satshakit-flight-controller)**:
 
