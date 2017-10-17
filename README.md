@@ -1,7 +1,7 @@
-<h1 style="font-family: courier;" align="center"> satshakit 128</h1>
+<h1 style="font-family: courier;" align="center"> satshakit nero</h1>
 <p align="center">
-<img src="media/satshakit128.jpg" width="70%">
-<div align="center"><i>An improved & fabbable Arduino IDE/libraries compatible board.</i></div>
+<img src="media/satshakit-nero-1" width="70%">
+<div align="center"><i>An improved & fabbable multi-mcu flight controller board.</i></div>
 </p>  
 
 What is satshakit?
