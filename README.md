@@ -1,6 +1,6 @@
 <h1 style="font-family: courier;" align="center"> satshakit nero</h1>
 <p align="center">
-<img src="media/satshakit-nero-1" width="70%">
+<img src="media/satshakit-nero-1.jpg" width="70%">
 <div align="center"><i>An improved & fabbable multi-mcu flight controller board.</i></div>
 </p>  
 
