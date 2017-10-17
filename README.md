@@ -21,8 +21,6 @@ The ATMega328P microntroller gives to this board all the features of the origina
 - support for [any drone configuration](http://www.multiwii.com/connecting-elements) up to **8 motors**
 - support for up to **6 channels** receivers 
 - **16mhz crystal** for precise clock, reliability and compatibility
-- size of **48x48mmm** to fit the size of commercial available boards
-- embedded **power board** (if needed)
 - possibility to connect and use **any IMU working at 5V** 
 
 And plus it adds the features of the **[satshakit-128](https://github.com/satshakit/satshakit-128)**:
