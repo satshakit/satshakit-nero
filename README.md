@@ -1,4 +1,4 @@
-<h1 style="font-family: courier;" align="center"> satshakit nero</h1>
+<h1 style="font-family: courier;" align="center"> satshakit-nero</h1>
 <p align="center">
 <img src="media/satshakit-nero-1.jpg" width="70%">
 <div align="center"><i>An improved & fabbable multi-mcu flight controller board.</i></div>
@@ -14,17 +14,23 @@ Here you can find all of the satshakit boards: **[satshakit organization](https:
 satshakit-nero
 --
 
-**satshakit nero** is microcontroller board designed around the **ATMega1284P** and the **ATMega328P** chips and it is suitable for advanced drone applications and scenarios in which is needed to have two available microcontrollers. The ATMega328P manages the flight with the **[Multiwii](http://www.multiwii.com/)** while ATMega1284P can be used to inject and override the transmitter stick values (ROLL, PITCH, YAW and THROTTLE) or to manage a set of additional sensors. In the board there is a jumper to enable or disable the serial communication between the two microcontrollers.
+**satshakit nero** is microcontroller board designed around the **ATMega1284P** and the **ATMega328P** chips and it is suitable for advanced drone applications and scenarios in which it is needed to have two available microcontrollers. The ATMega328P manages the flight with the **[Multiwii](http://www.multiwii.com/)** while ATMega1284P can be used to inject and override the transmitter stick values (ROLL, PITCH, YAW and THROTTLE) or to manage a set of additional sensors. In the board there is a jumper to enable or disable the serial communication between the two microcontrollers (SERIAL_COMMON in the Eagle board).
 
 The ATMega328P microntroller gives to this board all the features of the original **[satshakit flight controller board](https://github.com/satshakit/satshakit-flight-controller)**:
 
 - support for [any drone configuration](http://www.multiwii.com/connecting-elements) up to **8 motors**
 - support for up to **6 channels** receivers 
-- costs about **8€**
 - **16mhz crystal** for precise clock, reliability and compatibility
 - size of **48x48mmm** to fit the size of commercial available boards
 - embedded **power board** (if needed)
 - possibility to connect and use **any IMU working at 5V** 
+
+And plus it adds the features of the **[satshakit-128](https://github.com/satshakit/satshakit-128)**:
+
+- **128k** flash memory
+- **2 serials**
+- **16k of ram**
+- **32 IO** pins
 
 Here you can have a look on **satshakit-nero board**:
 
